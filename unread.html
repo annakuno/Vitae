@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="unread.css" rel="stylesheet">
+    <script src="unread.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700,800" rel="stylesheet">
+    <title>Vitae</title>
+  </head>
+  <body>
+   <div class="nav">
+     <a href="index.html"><div class="left-nav">
+       <h1>John Doe</h1>
+       <h2>employer</h2>
+     </div></a>
+
+     <div class="right-nav">
+       <a href="notifications.html"><div class="bell"><img src="icons/bell.png"/></div></a>
+       <div class="mail"><div class="highlight">
+       </div><img src="icons/mail.png"/></div>
+       <a href="profile.html"><div class="profile-icon"><img src="icons/profile-icon.png"/></div></a>
+       <a href="login.html"><div class="logout"><img src="icons/logout.png"/></div></a>
+     </div>
+
+   </div>
+
+   <div class="main">
+
+     <div class="side-nav">
+       <div class="home">
+         <h1><a href="index.html">Home</a></h1>
+       </div>
+
+       <div class="my-team">
+         <h1>My team</h1>
+         <a href="invite.html"><h2>Invite</h2></a>
+         <a href="employees.html"><h2>Employees</h2></a>
+       </div>
+
+       <div class="my-toolbox">
+         <h1>My toolbox</h1>
+         <a href="announcements.html"><h2>Announcements</h2></a>
+         <a href="templates.html"><h2>Templates</h2></a>
+         <h2>Content Management</h2>
+         <a href="contracts.html"><h3>Contracts</h3></a>
+         <a href="payslips.html"><h3>Payslips</h3></a>
+         <a href="leave-requests.html"><h3>Leave Requests</h3></a>
+         <a href="expense-claims.html"><h3>Expense Claims</h3></a>
+       </div>
+
+       <div class="settings">
+         <h1>Settings</h1>
+         <a href="edit-prof.html"><h2>Edit Profile</h2></a>
+         <a href="notif-settings.html"><h2>Notifications</h2></a>
+         <h2>Privacy</h2>
+         <h2>Help</h2>
+       </div>
+     </div>
+
+  <div class="messages">
+    <div class="msg-head">
+      <h1 class="unread">Unread</h1>
+      <a href="all-messages.html"><h1 class="all-msg">All messages</h1></a>
+    </div>
+    <div class="messages-body">
+      <div class="msg-preview">
+        <div class="search-msgs">
+          <input type="text" placeholder="Search messages"/>
+        </div>
+        <div class="message" onclick="readMsg()" id="message">
+          <div class="msg-prof">
+            <img src="icons/profile-icon.png">
+          </div>
+          <div class="msg-info" id="bold">
+            <h1 id="bold-name">Daniel Cowen</h1>
+            <h1 id="bold-pos">Intern</h1>
+            <h2 id="bold-txt">Hi John, how do I submit a leave req...</h2>
+          </div>
+        </div>
+      </div>
+      <div class="current-msg">
+        <div class="new-msg-header">
+          <div class="new-msg-pic">
+            <a href="new-msg.html"><img src="icons/new-msg.png"></a>
+          </div>
+        </div>
+        <div class="current-msg-body" id="currentMsg">
+          <div class="current-msg-person">
+            <img src="icons/big-prof.png">
+            <div class="current-msg-person-info">
+              <h1>Daniel Cowen</h1>
+              <h2>Intern</h2>
+              <h2>Employee since 2016</h2>
+            </div>
+          </div>
+          <div class="current-msg-text">
+            <div class="time">
+              <h1>2:16pm</h1>
+            </div>
+            <div class="actual-msg">
+              <img src="icons/profile-icon.png">
+              <div class="actual-msg-text">
+                <h1>Daniel Cowen</h1>
+                <p>Hi John, how do I submit a leave request on the mobile app?</p>
+              </div>
+            </div>
+          </div>
+          <div class="response">
+            <input placeholder="Write a message to Daniel"/>
+            <div class="response-pics">
+              <img src="icons/attachment.png">
+              <img src="icons/img.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>

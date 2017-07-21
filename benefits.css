@@ -1,0 +1,318 @@
+body{
+   margin:0;
+   padding:0;
+   font-family: 'Nunito', sans-serif;
+   font-weight: 200;
+}
+
+.nav{
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(101, 72, 192, 0.7);
+}
+
+.nav h1, .nav h2{
+  font-weight: 200;
+}
+
+.nav h1{
+  margin-bottom: 0px;
+  margin-top: 15px;
+  font-size: 36px;
+}
+
+.nav h2{
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+.left-nav{
+  margin-left: 80px;
+}
+
+.right-nav{
+  margin-right: 0;
+  margin-left: 800px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/*.right-nav img{
+  height: 80px;
+  width: 80px;
+}*/
+
+.bell img{
+  height: 60px;
+  width: 60px;
+}
+
+.bell{
+  margin-right: 30px;
+  width: 50px;
+}
+
+.mail img{
+  height: 60px;
+  width: 60px;
+}
+
+.mail{
+  margin-right: 30px;
+}
+
+.profile-icon img{
+  height: 50px;
+  width: 50px;
+}
+
+.profile-icon{
+  margin-right: 30px;
+}
+
+.logout img{
+  height: 40px;
+  width: 40px;
+  margin-top: -5px;
+}
+
+.main{
+  display: flex;
+}
+
+.side-nav{
+  width: 300px;
+  background-color: rgb(52, 32, 116);
+  height: 800px;
+}
+
+.side-nav h1, .side-nav h2, .side-nav h3{
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+.side-nav h1{
+  font-size: 30px;
+}
+
+.side-nav h2{
+  font-size: 18px;
+}
+
+.side-nav h3{
+  font-size: 16px;
+}
+
+.home, .my-team, .my-toolbox, .settings{
+  padding-left: 30px;
+}
+
+.home{
+  padding-top: 30px;
+}
+
+.home h1{
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.highlight{
+  background-color: rgba(1, 1, 1, 0.4);
+  height: 24px;
+  width: 330px;
+  position: absolute;
+  left: -30px;
+}
+
+.my-team h1, .my-toolbox h1, .settings h1{
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.my-team h2, .my-toolbox h2, .settings h2, .my-toolbox h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.my-team h2, .my-toolbox h2, .settings h2{
+  margin-left: 25px;
+}
+
+.my-toolbox h3{
+  margin-left: 45px;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.nav a, .employees a{
+  color: black;
+}
+
+.employees{
+  margin-left: 100px;
+  margin-top: 40px;
+  /*display: flex;*/
+}
+
+.title{
+  display: flex;
+}
+
+.title h1{
+  font-size: 48px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.title p{
+  margin-left: 500px;
+  font-size: 20px;
+  border: 1px solid black;
+  height: 30px;
+  padding: 5px 10px 5px 10px;
+}
+
+.sort {
+  display: flex;
+}
+
+.sort p{
+  margin-top: 10px;
+}
+
+.headers{
+  display: flex;
+  border-bottom: 0.75px solid black;
+}
+
+.headers h1{
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+.head-name{
+  margin-right: 150px;
+}
+
+.head-date{
+  margin-right: 100px;
+}
+
+.contract{
+  width: 900px;
+  display: flex;
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 200;
+  align-items: center;
+}
+
+#first{
+  margin-top: 10px;
+}
+
+.contract img{
+  width: 50px;
+  height: 50px;
+}
+
+.contract p{
+  /*margin-right: 100px;*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.temp-title{
+  width: 200px;
+  margin-right: 150px;
+}
+
+.size{
+  width: 100px;
+  margin-right: 95px;
+}
+
+.date{
+  width: 200px;
+}
+
+input{
+  width: 800px;
+  height: 300px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.message-img{
+  width: 50px;
+  height: 50px;
+  margin-left: 80px;
+}
+
+.size{
+  margin-left: 50px;
+}
+
+.view{
+  margin-left: 10px;
+}
+
+.delete{
+  margin-left: 40px;
+}
+
+.dropbtn{
+  background-color: #FFFFFF;
+  color: black;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.dropdown-content{
+  width: 300px;
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  z-index: 1;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dropdown-content h1{
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.dropdown-content h1:hover{
+  background-color: #A9A9A9;
+}
+
+.show{
+  display: block;
+}

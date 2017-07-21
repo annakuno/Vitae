@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="gettingstarted.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:Light,Extra-Light,Bold" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <title>Vitae</title>
+  </head>
+  <body>
+    <div class = "vitae-bar">
+        <div class = "vitae-box">Vitae</div>
+        <div class = "button-box">
+            <button id = "about-btn" class="button-1">About</button>
+            <button id = "support-btn" class="button-1">Support</button>
+            <button id = "sa-btn" class="button-1">System Admin</button>
+        </div>
+    </div>
+    <div class = "login-bar"><h1>Getting Started</h1></div>
+    <div class = "input-div">
+        <div class= "boxr">
+          <div class= "name-sect">
+              <p>What is your name?</p>
+              <input id = "first-name" class = "input-buff" placeholder="First Name">
+              <input id = "last-name" class = "input-buff" placeholder="Last Name"><br/>
+            </div>
+            <div class = "email-sect">
+                <p>What is your email address?</p>
+              <input id = "email" class = "input-buff" placeholder="Email" type="email">
+            </div>
+            <button id="cont-btn" class="input-buff" onclick="test()"><p class="btn-text">Continue</p></button>
+            </div>
+        </div>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase-messaging.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyARiKSLzTEvoSTrlIvO33frxGkTWO8d2Vs",
+      authDomain: "practice-a476a.firebaseapp.com",
+      databaseURL: "https://practice-a476a.firebaseio.com",
+      projectId: "practice-a476a",
+      storageBucket: "",
+      messagingSenderId: "903604308453"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="onboarding.js"></script>
+</html>

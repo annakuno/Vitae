@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="benefits.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300" rel="stylesheet">
+    <title>Vitae</title>
+  </head>
+  <body>
+   <div class="nav">
+     <a href="index.html"><div class="left-nav">
+       <h1>John Doe</h1>
+       <h2>employer</h2>
+     </div></a>
+
+     <div class="right-nav">
+       <a href="notifications.html"><div class="bell"><img src="icons/bell.png"/></div></a>
+       <a href="all-messages.html"><div class="mail"><img src="icons/mail.png"/></div></a>
+       <a href="profile.html"><div class="profile-icon"><img src="icons/profile-icon.png"/></div></a>
+       <a href="login.html"><div class="logout"><img src="icons/logout.png"/></div></a>
+     </div>
+
+   </div>
+
+   <div class="main">
+
+     <div class="side-nav">
+       <div class="home">
+         <h1><a href="index.html">Home</a></h1>
+       </div>
+
+       <div class="my-team">
+         <h1>My team</h1>
+         <a href="invite.html"><h2>Invite</h2></a>
+         <a href="employees.html"><h2>Employees</h2></a>
+       </div>
+
+       <div class="my-toolbox">
+         <h1>My toolbox</h1>
+         <a href="announcements.html"><h2>Announcements</h2></a>
+         <a href="templates.html"><h2>Templates</h2></a>
+         <h2>Content Management</h2>
+         <a href="contracts.html"><h3>Contracts</h3></a>
+         <a href="payslips.html"><h3>Payslips</h3></a>
+         <a href="leave-requests.html"><h3>Leave Requests</h3></a>
+         <a href="expense-claims.html"><h3>Expense Claims</h3></a>
+         <div class="highlight">
+         </div>
+       </div>
+
+       <div class="settings">
+         <h1>Settings</h1>
+         <a href="edit-prof.html"><h2>Edit Profile</h2></a>
+         <a href="notif-settings.html"><h2>Notifications</h2></a>
+         <h2>Privacy</h2>
+         <h2>Help</h2>
+       </div>
+
+     </div>
+
+     <div class="employees">
+       <div class="title">
+         <h1>Employee Benefits</h1>
+       </div>
+       <div class="sort">
+         <p>Sort by:</p>
+         <div class="dropdown">
+         <button onclick="showManagers()" class="dropbtn" id="manTitle">Date Added</button>
+         <div id="myDropdown2" class="dropdown-content">
+           <h1 id="emp" onclick="selectEmployee()">Name</h1>
+           <h1 id="man1" onclick="selectMan1()">Date Added</h1>
+           <h1 id="man2" onclick="selectMan2()">File Size</h1>
+         </div>
+       </div>
+       </div>
+       <div class="headers">
+         <h1 class="head-name">Employee Name</h1>
+         <h1 class="head-date">Date Added</h1>
+         <h1 class="head-size">File Size</h1>
+       </div>
+       <div class="contract" id="first">
+         <p class="temp-title">Daniel Cowen</p>
+         <p class="date">21 June 2017</p>
+         <p class="size">1.8mb</p>
+         <a href="example-benefits.html"><p class="view">View</p></a>
+         <p class="delete">Delete</p>
+       </div>
+       <div class="contract">
+         <p class="temp-title">Anna Kuno</p>
+         <p class="date">10 June 2017</p>
+         <p class="size">1.8mb</p>
+         <p class="view">View</p>
+         <p class="delete">Delete</p>
+       </div>
+       <div class="contract">
+         <p class="temp-title">Tommy Lam</p>
+         <p class="date">3 April 2017</p>
+         <p class="size">1.8mb</p>
+         <p class="view">View</p>
+         <p class="delete">Delete</p>
+       </div>
+       <div class="contract">
+         <p class="temp-title">Jon Nelson</p>
+         <p class="date">18 Dec 2016</p>
+         <p class="size">1.8mb</p>
+         <p class="view">View</p>
+         <p class="delete">Delete</p>
+       </div>
+     </div>
+    </div>
+
+  </body>
+
+  <script src="benefits.js"></script>
+</html>

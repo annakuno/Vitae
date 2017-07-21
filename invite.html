@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="invite.css" rel="stylesheet">
+    <script src="invite.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300" rel="stylesheet">
+    <title>Vitae</title>
+  </head>
+  <body>
+   <div class="nav">
+     <a href="index.html"><div class="left-nav">
+       <h1>John Doe</h1>
+       <h2>employer</h2>
+     </div></a>
+
+     <div class="right-nav">
+       <a href="notifications.html"><div class="bell"><img src="icons/bell.png"/></div></a>
+       <a href="all-messages.html"><div class="mail"><img src="icons/mail.png"/></div></a>
+       <a href="profile.html"><div class="profile-icon"><img src="icons/profile-icon.png"/></div></a>
+       <a href="login.html"><div class="logout"><img src="icons/logout.png"/></div></a>
+     </div>
+
+   </div>
+
+   <div class="main">
+
+     <div class="side-nav">
+       <div class="home">
+         <h1><a href="index.html">Home</a></h1>
+       </div>
+
+       <div class="my-team">
+         <h1>My team</h1>
+         <div class="highlight">
+         </div>
+         <h2>Invite</h2>
+         <a href="employees.html"><h2>Employees</h2></a>
+       </div>
+
+       <div class="my-toolbox">
+         <h1>My toolbox</h1>
+         <a href="announcements.html"><h2>Announcements</h2></a>
+         <a href="templates.html"><h2>Templates</h2></a>
+         <h2>Content Management</h2>
+         <a href="contracts.html"><h3>Contracts</h3></a>
+         <a href="payslips.html"><h3>Payslips</h3></a>
+         <a href="leave-requests.html"><h3>Leave Requests</h3></a>
+         <a href="expense-claims.html"><h3>Expense Claims</h3></a>
+       </div>
+
+       <div class="settings">
+         <h1>Settings</h1>
+         <a href="edit-prof.html"><h2>Edit Profile</h2></a>
+         <a href="notif-settings.html"><h2>Notifications</h2></a>
+         <h2>Privacy</h2>
+         <h2>Help</h2>
+       </div>
+
+     </div>
+
+  <div class="employee-info">
+
+     <div class="left">
+       <div class="title">
+        <h1>Invite New Employee</h1>
+       </div>
+       <div class="basic-info">
+         <h1>Basic Information</h1>
+         <div class="basic-info-body">
+           <div class="labels">
+             <h2>Name of employee:</h2>
+             <h2>Email address:</h2>
+             <h2>Mobile number:</h2>
+             <h2>Date of birth:</h2>
+             <h2>ID number:</h2>
+           </div>
+           <div class="forms">
+             <input type="text" name="employee-name">
+             <input type="text" name="email-address">
+             <input type="text" name="mobile-number">
+             <input type="text" name="dob" placeholder="DD/MM/YYYY">
+             <input type="text" name="id-no">
+           </div>
+         </div>
+         <p>An email will be sent to the employee notifying them of their invitation and asking them to continue their profile setup.</p>
+       </div>
+
+       <div class="job-info">
+         <h1>Job Information</h1>
+         <div class="job-info-body">
+           <div class="label">
+             <h2>Employee position:</h2>
+           </div>
+           <div class="form">
+            <input type="text" name="id-no"></h2>
+          </div>
+        </div>
+         <div class="department">
+          <h2>Department:</h2>
+          <div class="dropdown" id="dept-dropdown">
+          <button onclick="showDepts()" class="dropbtn" id="title">Select a department</button>
+          <div id="myDropdown" class="dropdown-content">
+            <h1 id="sales" onclick="selectSales()">Sales</h1>
+            <h1 id="market" onclick="selectMarket()">Marketing</h1>
+            <h1 id="finance" onclick="selectFinance()">Finance</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="manager">
+       <h2>Manager:</h2>
+       <div class="dropdown" id="man-dropdown">
+       <button onclick="showManagers()" class="dropbtn" id="manTitle">Select a manager</button>
+       <div id="myDropdown2" class="dropdown-content">
+         <h1 id="emp" onclick="selectEmployee()">This employee is a manager</h1>
+         <h1 id="man1" onclick="selectMan1()">Manager name 1</h1>
+         <h1 id="man2" onclick="selectMan2()">Manager name 2</h1>
+       </div>
+     </div>
+   </div>
+       </div>
+
+       <a href="invite2.html"><button type="button" class="invite">Invite</button></a>
+     </div>
+
+     <div class="pending">
+       <h1>Pending invitations:</h1>
+       <h2>Tommy Lam</h2>
+       <h2>Jon Nelson</h2>
+       <h2>Anna Kuno</h2>
+     </div>
+
+
+   </div>
+ </div>
+
+  </body>
+</html>

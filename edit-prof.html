@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="edit-prof.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300" rel="stylesheet">
+    <script src="edit-prof.js"></script>
+    <title>Vitae</title>
+  </head>
+  <body>
+   <div class="nav">
+     <a href="index.html"><div class="left-nav">
+       <h1>John Doe</h1>
+       <h2>employer</h2>
+     </div></a>
+
+     <div class="right-nav">
+       <a href="notifications.html"><div class="bell"><img src="icons/bell.png"/></div></a>
+       <a href="all-messages.html"><div class="mail"><img src="icons/mail.png"/></div></a>
+       <a href="profile.html"><div class="profile-icon"><img src="icons/profile-icon.png"/></div></a>
+       <a href="login.html"><div class="logout"><img src="icons/logout.png"/></div></a>
+     </div>
+
+   </div>
+
+   <div class="main">
+
+     <div class="side-nav" id="sideNav">
+       <div class="home">
+         <h1><a href="index.html">Home</a></h1>
+       </div>
+
+       <div class="my-team">
+         <h1>My team</h1>
+         <a href="invite.html"><h2>Invite</h2></a>
+         <a href="employees.html"><h2>Employees</h2></a>
+       </div>
+
+       <div class="my-toolbox">
+         <h1>My toolbox</h1>
+         <a href="announcements.html"><h2>Announcements</h2></a>
+         <a href="templates.html"><h2>Templates</h2></a>
+         <h2>Content Management</h2>
+         <a href="contracts.html"><h3>Contracts</h3></a>
+         <a href="payslips.html"><h3>Payslips</h3></a>
+         <a href="leave-requests.html"><h3>Leave Requests</h3></a>
+         <a href="expense-claims.html"><h3>Expense Claims</h3></a>
+       </div>
+
+       <div class="settings">
+         <h1>Settings</h1>
+         <div class="highlight">
+         </div>
+         <h2>Edit Profile</h2>
+         <a href="notif-settings.html"><h2>Notifications</h2></a>
+         <h2>Privacy</h2>
+         <h2>Help</h2>
+       </div>
+
+     </div>
+
+     <div class="employees">
+       <div class="title">
+         <h1>Edit Profile</h1>
+       </div>
+       <div class="edit-body">
+         <div class="editable">
+           <div class="editable-title">
+             <h1>Name</h1>
+           </div>
+           <div class="editable-body">
+             <h2 class="data" id="name">John Doe</h2>
+             <h2 class="public">Public</h2>
+             <h2 class="edit" onclick="editName()" id="edit1">Edit</h2>
+           </div>
+           <div class="edit-open" id="editNameOpen">
+             <form class="edit-name">
+               <input class="data" placeholder="Enter name"/>
+             </form>
+           </div>
+         </div>
+         <div class="editable">
+           <div class="editable-title">
+             <h1>Email address</h1>
+           </div>
+           <div class="editable-body">
+             <h2 class="data">john@company.com</h2>
+             <h2 class="public">Public</h2>
+             <h2 class="edit" onclick="editEmail()" id="edit2">Edit</h2>
+           </div>
+           <div class="edit-open" id="editEmailOpen">
+             <form class="edit-email">
+               <input class="data" placeholder="Enter email"/>
+             </form>
+           </div>
+         </div>
+         <div class="editable">
+           <div class="editable-title">
+             <h1>Phone number</h1>
+           </div>
+           <div class="editable-body">
+             <h2 class="data">079 111 2188</h2>
+             <h2 class="public">Private</h2>
+             <h2 class="edit" onclick="editPhone()" id="edit3">Edit</h2>
+           </div>
+           <div class="edit-open" id="editPhoneOpen">
+             <form class="edit-phone">
+               <input class="data" placeholder="Enter phone number"/>
+             </form>
+           </div>
+         </div>
+         <div class="editable">
+           <div class="editable-title">
+             <h1>Current position</h1>
+           </div>
+           <div class="editable-body">
+             <h2 class="data">Head of Human Resources</h2>
+             <h2 class="public">Public</h2>
+             <h2 class="edit" onclick="editPosition()" id="edit4">Edit</h2>
+           </div>
+           <div class="edit-open" id="editPosOpen">
+             <form class="edit-pos">
+               <input class="data" placeholder="Enter position"/>
+             </form>
+           </div>
+         </div>
+         <div class="editable">
+           <div class="editable-title">
+             <h1>Bio</h1>
+           </div>
+           <div class="editable-body">
+             <h2 class="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit imperdiet ligula a congue. Phasellus eleifend bibendum malesuada. Vivamus diam nisl, pulvinar et lectus sit amet, dignissim varius dui. Pellentesque velit magna, scelerisque a porttitor non, rutrum non ipsum.</h2>
+             <h2 class="public">Public</h2>
+             <h2 class="edit" onclick="editBio()" id="edit5">Edit</h2>
+           </div>
+           <div class="edit-open" id="editBioOpen">
+             <textarea class="edit-bio" cols="50" rows="5" placeholder="Enter bio">
+             </textarea>
+           </div>
+         </div>
+       </div>
+     </div>
+    </div>
+
+  </body>
+</html>

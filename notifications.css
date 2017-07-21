@@ -1,0 +1,227 @@
+body{
+   margin:0;
+   padding:0;
+   font-family: 'Nunito', sans-serif;
+   font-weight: 200;
+}
+
+.nav{
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(101, 72, 192, 0.7);
+}
+
+.nav h1, .nav h2{
+  font-weight: 200;
+}
+
+.nav h1{
+  margin-bottom: 0px;
+  margin-top: 15px;
+  font-size: 36px;
+}
+
+.nav h2{
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+.left-nav{
+  margin-left: 80px;
+}
+
+.right-nav{
+  margin-right: 0;
+  margin-left: 800px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/*.right-nav img{
+  height: 80px;
+  width: 80px;
+}*/
+
+.bell img{
+  height: 60px;
+  width: 60px;
+}
+
+.bell{
+  margin-right: 30px;
+  width: 50px;
+}
+
+.mail img{
+  height: 60px;
+  width: 60px;
+}
+
+.mail{
+  margin-right: 30px;
+}
+
+.profile-icon img{
+  height: 50px;
+  width: 50px;
+}
+
+.profile-icon{
+  margin-right: 30px;
+}
+
+.logout img{
+  height: 40px;
+  width: 40px;
+  margin-top: -5px;
+}
+
+.main{
+  display: flex;
+}
+
+.side-nav{
+  width: 300px;
+  background-color: rgb(52, 32, 116);
+  height: 800px;
+}
+
+.side-nav h1, .side-nav h2, .side-nav h3{
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+.side-nav h1{
+  font-size: 30px;
+}
+
+.side-nav h2{
+  font-size: 18px;
+}
+
+.side-nav h3{
+  font-size: 16px;
+}
+
+.home, .my-team, .my-toolbox, .settings{
+  padding-left: 30px;
+}
+
+.home{
+  padding-top: 30px;
+}
+
+.home h1{
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.highlight{
+  background-color: rgba(1, 1, 1, 0.4);
+  height: 83px;
+  width: 60px;
+  position: absolute;
+  margin-top: -15px;
+}
+
+.my-team h1, .my-toolbox h1, .settings h1{
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.my-team h2, .my-toolbox h2, .settings h2, .my-toolbox h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.my-team h2, .my-toolbox h2, .settings h2{
+  margin-left: 25px;
+}
+
+.my-toolbox h3{
+  margin-left: 45px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav a{
+  color: black;
+}
+
+.notifications{
+  width: 1125px;
+}
+
+.notif-head{
+  display: flex;
+  margin-top: 50px;
+  width: 595px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notif-head h1{
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.your{
+  margin-right: 200px;
+  text-decoration: underline;
+}
+
+.notif-settings{
+  padding-left: 0px;
+}
+
+.notification-body{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notification{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notification h1{
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.notification h2{
+  width: 175px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  font-size: 18px;
+  font-weight: 200;
+  border: 1px solid black;
+  display: none;
+}
+
+.notification p{
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.notif-settings:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.notifications a{
+  color: black;
+}
