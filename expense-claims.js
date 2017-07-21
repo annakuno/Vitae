@@ -41,3 +41,9 @@ function selectMan2(){
   document.getElementById('manTitle').innerHTML=title1;
   document.getElementById('myDropdown2').classList.toggle('show');
 }
+
+function selectMan3(){
+  var title1 = document.getElementById('man3').innerHTML;
+  document.getElementById('manTitle').innerHTML=title1;
+  document.getElementById('myDropdown2').classList.toggle('show');
+}
