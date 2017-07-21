@@ -293,6 +293,7 @@ input{
 }
 
 .dropbtn{
+  cursor: pointer;
   background-color: #FFFFFF;
   color: black;
   border: none;
