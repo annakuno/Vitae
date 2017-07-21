@@ -166,7 +166,8 @@ a:hover{
 
 .indiv-emp{
   width: 800px;
-  margin-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 40px;
   /*display: flex;*/
 }
@@ -174,6 +175,7 @@ a:hover{
 .emp-name{
   display: flex;
   border-bottom: 2px solid black;
+  width: 700px;
 }
 
 .emp-name img{
@@ -209,6 +211,7 @@ a:hover{
 .emp-doc{
   display: flex;
   border-bottom: 1px solid black;
+  width: 700px;
 }
 
 .emp-doc p{
@@ -218,7 +221,7 @@ a:hover{
 
 .view{
   cursor: pointer;
-  margin-left: 100px;
+  margin-left: 300px;
 }
 
 button{
