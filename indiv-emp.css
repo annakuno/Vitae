@@ -7,7 +7,6 @@ body{
 
 .nav{
   display: flex;
-  /*justify-content: center;*/
   align-items: center;
   width: 100%;
   height: 80px;
@@ -42,11 +41,6 @@ body{
   align-items: center;
   margin-top: 10px;
 }
-
-/*.right-nav img{
-  height: 80px;
-  width: 80px;
-}*/
 
 .bell img{
   height: 60px;
@@ -169,7 +163,6 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  /*display: flex;*/
 }
 
 .emp-name{
